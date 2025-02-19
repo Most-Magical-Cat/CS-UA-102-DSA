@@ -1,0 +1,8 @@
+test3.txt
+java ElementaryCellularAutomata.java -rules 3 -off-color red -on-color cyan -random-seed 12 -size 10 -init 0.5 -iter 10
+
+text110.txt
+java ElementaryCellularAutomata.java -rules 110 -off-color black -on-color cyan -random-seed 42 -size 50 -init 0.2 -iter 500
+
+testRandom.txt
+java ElementaryCellularAutomata.java -rules 0.5 0.6 1 1 0 1 0.5 0.2 -off-color white -on-color magenta -random-seed 0 -size 100 -init 0.4 -iter 500
