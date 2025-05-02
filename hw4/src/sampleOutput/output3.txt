@@ -1,0 +1,6 @@
+Postfix: m x * b + 
+Infix: ((m * x) + b)
+Unbound Variable: m
+Unbound Variable: x
+Unbound Variable: b
+Solved: ((m * x) + b)

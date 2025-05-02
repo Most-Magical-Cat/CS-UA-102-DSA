@@ -1,0 +1,29 @@
+> java ExpressionInterpreter "1 + 1"
+Postfix: 1 1 + 
+Infix: (1 + 1)
+Solved: 2.0
+
+> java ExpressionInterpreter "1 * 2 / 5 + 1 - 3 * 4 ^ 0"
+Postfix: 1 2 * 5 / 1 + 3 4 0 ^ * - 
+Infix: ((((1 * 2) / 5) + 1) - (3 * (4 ^ 0)))
+Solved: -1.6
+
+> java ExpressionInterpreter "m * x + b"                
+Postfix: m x * b + 
+Infix: ((m * x) + b)
+Unbound Variable: m
+Unbound Variable: x
+Unbound Variable: b
+Solved: ((m * x) + b)
+
+> java ExpressionInterpreter "x^2 - x - 1"
+Postfix: x 2 ^ x - 1 - 
+Infix: (((x ^ 2) - x) - 1)
+Unbound Variable: x
+Unbound Variable: x
+Solved: (((x ^ 2) - x) - 1)
+
+> java ExpressionInterpreter "(3 + 5) / (3*3 - 1)"
+Postfix: 3 5 + 3 3 * 1 - / 
+Infix: ((3 + 5) / ((3 * 3) - 1))
+Solved: 1.0

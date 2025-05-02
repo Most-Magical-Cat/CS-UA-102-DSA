@@ -1,0 +1,5 @@
+Postfix: x 2 ^ x - 1 - 
+Infix: (((x ^ 2) - x) - 1)
+Unbound Variable: x
+Unbound Variable: x
+Solved: (((x ^ 2) - x) - 1)
