@@ -1,2 +1,2 @@
 # CS-UA 102
-Homework and Solutions to NYU Spring 25 Data Structures taught by Max Sklar
+Homework and Solutions to NYU CAS Spring 2025 CS-UA 102 Data Structures taught by Max Sklar
